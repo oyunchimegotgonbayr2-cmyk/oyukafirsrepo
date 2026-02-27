@@ -303,3 +303,62 @@ header .head-content h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.section4-text {
+    width: 55%;
+}
+
+.section4-text h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-left h3 {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.menu-left p {
+    margin: 5px 0 0;
+    font-size: 13px;
+    color: #555;
+}
+
+
+.price {
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+#section5 {
+    display: flex;                 
+    justify-content: center;       
+    align-items: center;           
+    gap: 40px;                    
+    height: 100vh;              
+    background: #fffbf2;
+    padding: 0 100px;
+}
+
+
+.section5-img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background: url('img/home-image-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
